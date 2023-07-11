@@ -8,8 +8,8 @@ const RouteSwitch = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/shopping-cart" element={<App />} />
-        <Route path="/shop-page" element={<ShopPage />} />
+        <Route path="shopping-cart" element={<App />} />
+        <Route path="shop-page" element={<ShopPage />} />
       </Routes>
     </BrowserRouter>
   );
