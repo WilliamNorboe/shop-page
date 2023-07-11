@@ -1,10 +1,12 @@
 import "./App.css";
+import React, { useState, useEffect } from "react";
 import morshou from "./components/images/morshu.png";
 
 function App() {
   const changePage = () => {
-    window.location = "./shop-page";
+    window.location = "/shop-page"
   };
+
   return (
     <div className="App">
       <header className="App-header">Morshou's Shop</header>
