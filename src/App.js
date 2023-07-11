@@ -1,21 +1,21 @@
-import './App.css';
-import morshou from './components/images/morshu.png'
+import "./App.css";
+import morshou from "./components/images/morshu.png";
 
 function App() {
-
-  const changePage = ()=>{
+  const changePage = () => {
     window.location = "./shop-page";
-  }
+  };
   return (
     <div className="App">
-      <header className="App-header">
-          Online Market
-      </header>
+      <header className="App-header">Morshou's Shop</header>
       <div className="aboutUs">
         <p>About us</p>
-        <p>- Lamp oil. Rope? Bombs? You want it? It's yours my friend. As long as you have enough rubies.</p>
+        <p>
+          - Lamp oil. Rope? Bombs? You want it? It's yours my friend. As long as
+          you have enough rubies.
+        </p>
       </div>
-      <img src = {morshou} alt = "Morshou"/>
+      <img src={morshou} alt="Morshou" />
       <button onClick={changePage}>Start Shopping</button>
     </div>
   );

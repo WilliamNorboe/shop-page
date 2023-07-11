@@ -1,23 +1,22 @@
-
-import './shop-page.css';
+import "./shop-page.css";
 import cart from "./images/cart.png";
-import Item from "./item.js";
-import lampOil from "./images/lampoil.webp";
-import Products from './items';
+import Products from "./items";
+import React, { useState } from "react";
 
 const ShopPage = () => {
-    return (
-      <div>
-        <div id = "top">
-            <div className = "App-header">Shop Page</div>
-            <div className="cart">
-                <img className="icon" src = {cart} alt = "Cart"></img>
-                <div id = "numItems">0</div>
-            </div>
+  const [cartSize, setCartSize] = useState(0);
+  return (
+    <div>
+      <div id="top">
+        <div className="App-header">Morshou's Shop</div>
+        <div className="cart">
+          <img className="icon" src={cart} alt="Cart"></img>
+          <div id="numItems">{cartSize}</div>
         </div>
-        <Products />
       </div>
-    );
-  };
-  
-  export default ShopPage;
+      <Products setCartSize={setCartSize} cartSize={cartSize} />
+    </div>
+  );
+};
+
+export default ShopPage;
