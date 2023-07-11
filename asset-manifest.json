@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.fbb453fd.css",
-    "main.js": "/shopping-cart/static/js/main.95adf4f9.js",
-    "static/media/bomb.png": "/shopping-cart/static/media/bomb.83f04ed9e9e2908a2918.png",
-    "static/media/rope.webp": "/shopping-cart/static/media/rope.0d4f60c0e9b6bd6e8ac2.webp",
-    "static/media/lampoil.webp": "/shopping-cart/static/media/lampoil.8da6acac37f21b708451.webp",
-    "index.html": "/shopping-cart/index.html",
-    "main.fbb453fd.css.map": "/shopping-cart/static/css/main.fbb453fd.css.map",
-    "main.95adf4f9.js.map": "/shopping-cart/static/js/main.95adf4f9.js.map"
+    "main.css": "/shop-page/static/css/main.fbb453fd.css",
+    "main.js": "/shop-page/static/js/main.838ee2af.js",
+    "static/media/bomb.png": "/shop-page/static/media/bomb.83f04ed9e9e2908a2918.png",
+    "static/media/rope.webp": "/shop-page/static/media/rope.0d4f60c0e9b6bd6e8ac2.webp",
+    "static/media/lampoil.webp": "/shop-page/static/media/lampoil.8da6acac37f21b708451.webp",
+    "index.html": "/shop-page/index.html",
+    "main.fbb453fd.css.map": "/shop-page/static/css/main.fbb453fd.css.map",
+    "main.838ee2af.js.map": "/shop-page/static/js/main.838ee2af.js.map"
   },
   "entrypoints": [
     "static/css/main.fbb453fd.css",
-    "static/js/main.95adf4f9.js"
+    "static/js/main.838ee2af.js"
   ]
 }
