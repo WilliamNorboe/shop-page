@@ -6,10 +6,10 @@ import { HashRouter} from 'react-router-dom'
 
 const RouteSwitch = () => {
   return (
-    <BrowserRouter basename={"/${process.env.PUBLIC_URL"}>
+    <BrowserRouter>
       <Routes>
-        <Route path="" element={<App />} />
-        <Route path="shop-page" element={<ShopPage />} />
+        <Route path="/shopping-cart" element={<App />} />
+        <Route path="/shop-page" element={<ShopPage />} />
       </Routes>
     </BrowserRouter>
   );
