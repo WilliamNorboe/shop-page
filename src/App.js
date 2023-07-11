@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import morshou from './components/images/morshu.png'
 
 function App() {
+
+  const changePage = ()=>{
+    window.location = "./shop-page";
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          Online Market
       </header>
+      <div className="aboutUs">
+        <p>About us</p>
+        <p>- Lamp oil. Rope? Bombs? You want it? It's yours my friend. As long as you have enough rubies.</p>
+      </div>
+      <img src = {morshou} alt = "Morshou"/>
+      <button onClick={changePage}>Start Shopping</button>
     </div>
   );
 }

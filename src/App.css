@@ -1,6 +1,49 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+}
+
+.aboutUs{
+  font-size: 30px;
+  background-color: brown;
+   border-radius: 20px;
+   padding: 5px;
+   color: antiquewhite;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.App button{
+  font-size: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+body{
+  text-align: center;
+  background-color: darkorange;
+  /* background: url("./components/shop.jpg"); */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +78,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
