@@ -4,7 +4,7 @@ import morshou from "./components/images/morshu.png";
 
 function App() {
   const changePage = () => {
-    window.location = "/shop-page"
+    window.location = "/shopping-cart/shop-page"
   };
 
   return (

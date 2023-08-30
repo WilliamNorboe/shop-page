@@ -5,10 +5,11 @@ import ShopPage from "./components/shop-page.js";
 import { HashRouter} from 'react-router-dom'
 
 const RouteSwitch = () => {
+  console.log("loaded");
   return (
-    <BrowserRouter basename={"/${process.env.PUBLIC_URL"}>
+    <BrowserRouter basename={"/shopping-cart"}>
       <Routes>
-        <Route path="shopping-cart" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="shop-page" element={<ShopPage />} />
       </Routes>
     </BrowserRouter>
